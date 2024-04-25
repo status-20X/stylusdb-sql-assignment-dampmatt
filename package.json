@@ -9,6 +9,26 @@
   },
   "scripts": {
     "test": "jest",
+    "test:1": "jest --testPathPattern=./tests/step1",
+    "test:2": "jest --testPathPattern=./tests/step2",
+    "test:3": "jest --testPathPattern=./tests/step3",
+    "test:4": "jest --testPathPattern=./tests/step4",
+    "test:5": "jest --testPathPattern=./tests/step5",
+    "test:6": "jest --testPathPattern=./tests/step6",
+    "test:7": "jest --testPathPattern=./tests/step7",
+    "test:8": "jest --testPathPattern=./tests/step8",
+    "test:9": "jest --testPathPattern=./tests/step9",
+    "test:10": "jest --testPathPattern=./tests/step10",
+    "test:11": "jest --testPathPattern=./tests/step11",
+    "test:12": "jest --testPathPattern=./tests/step12",
+    "test:13": "jest --testPathPattern=./tests/step13",
+    "test:14": "jest --testPathPattern=./tests/step14",
+    "test:15": "jest --testPathPattern=./tests/step15",
+    "test:16": "jest --testPathPattern=./tests/step16",
+    "test:17": "jest --testPathPattern=./tests/step17",
+    "test:18": "jest --testPathPattern=./tests/step18",
+    "test:19": "jest --testPathPattern=./tests/step19",
+    "test:20": "jest --testPathPattern=./tests/step20",
     "test-verbose": "jest --verbose",
     "server": "node ./src/server.js"
   },
@@ -20,7 +40,8 @@
   "license": "ISC",
   "devDependencies": {
     "csv-parser": "^3.0.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0"
   },
   "dependencies": {
     "json2csv": "^6.0.0-alpha.2",
